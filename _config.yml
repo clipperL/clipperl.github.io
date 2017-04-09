@@ -30,3 +30,5 @@ gems:
 exclude:
   - Gemfile
   - Gemfile.lock
+
+baidu-analysis: 2692602f499926ac5b49af26c2068b6c
