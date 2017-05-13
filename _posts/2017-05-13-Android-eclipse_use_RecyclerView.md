@@ -13,7 +13,7 @@ eclipse中使用RecyclerView有两种方法，一种是直接导jar包，另一�
 
 现在详细说下每种方法。
 
-** 第一种方法是导入jar包。 **
+**第一种方法是导入jar包。**
 
 这个jar文件其实我们每个人都有，就在sdk中，按照下图的路径一级一级找，就能找到recyclerview-v7这个文件夹，里面有好多版本，但是很遗憾只有最低版本里面的jar文件可以用，对，就是21.0.0这个版本，这是recyclerview的第一个版本，不太完美，有bug（滑动冲突），不过如果你只是用来写个demo练习下RecyclerView的基本功能，那没啥大问题。
 
@@ -23,7 +23,7 @@ eclipse中使用RecyclerView有两种方法，一种是直接导jar包，另一�
 
 ![](http://upload-images.jianshu.io/upload_images/782269-58448a0fcc178579.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-** 接下来说下第二种方法。 **
+**接下来说下第二种方法。**
 
 ![](http://upload-images.jianshu.io/upload_images/782269-cf7f0db12dfe56c5.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
