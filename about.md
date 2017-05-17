@@ -16,6 +16,8 @@ permalink: /about/
 
 我想说的是，其实我是一个程序员。
 
+我是大船，我为自己带盐！
+
 ---
 
 GitHub：**[https://github.com/clipperL](https://github.com/clipperL)**
