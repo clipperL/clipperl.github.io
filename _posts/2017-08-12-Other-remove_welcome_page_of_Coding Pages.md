@@ -4,7 +4,6 @@ title:  "【其他】去掉Coding Pages的欢迎页之Hosted by Coding Pages，�
 date:   2017/8/12 11:30:06
 categories: Other
 ---
-
 首先必须把Coding Pages升级为银牌会员（免费），其实就是补全个人资料罢了。
 
 然后在Page服务中才会出现Hosted by Coding Pages设置项，如下图。
@@ -24,7 +23,11 @@ categories: Other
 
 ![](http://upload-images.jianshu.io/upload_images/782269-195b14b3d7b2a317.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-p标签带的行间距（不知道叫法对不对）太暴力了，空了一行，好丑。果断放弃p标签，改成span标签，“强力驱动”和“主题”两个字之间的竖线也挺好看的，copy一下，效果可以，自我感觉还好，就是不知道Coding官方能不能审核通过，希望我这么优美的布局能打动他们的审核。
+p标签带的行间距（不知道叫法对不对）太暴力了，空了一行，好丑。果断放弃p标签，改成span标签，“强力驱动”和“主题”两个字之间的竖线也挺好看的，copy一下，最后效果就是这样，自我感觉还好，就是不知道Coding官方能不能审核通过，希望我这么优美的布局能打动他们的审核。
+
+
+![](http://upload-images.jianshu.io/upload_images/782269-61ffd300da333f65.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
 
 最后把修改的footer代码贴出来，其实我只加了3行，另外，这个footer文件的位置在：
 
