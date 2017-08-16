@@ -29,7 +29,37 @@ p标签带的行间距（不知道叫法对不对）太暴力了，空了一行�
 
 最后把修改的footer代码贴出来，其实我只加了3行，另外，这个footer文件的位置在：
 
+> 你的Hexo文件夹\themes\next\layout\_partials\footer.swig
 
+```<div class="copyright" >
+  {% set current = date(Date.now(), "YYYY") %}
+  ? {% if theme.since and theme.since != current %} {{ theme.since }} - {% endif %}
+  <span itemprop="copyrightYear">{{ current }}</span>
+  <span class="with-love">
+    <i class="fa fa-{{ theme.authoricon }}"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">{{ config.author }}</span>
+  <!--以下3行为一条竖线和Coding Page-->
+  <div class="powered-by">  
+  </div>
+  <span>Hosted by <a href="https://pages.coding.me" style="font-weight: bold">Coding Pages</a></span>
+</div>
+
+{% if theme.copyright %}
+<div class="powered-by">
+  {{ __('footer.powered', '<a class="theme-link" href="https://hexo.io">Hexo</a>') }}
+</div>
+
+<div class="theme-info">
+  {{ __('footer.theme') }} -
+  <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
+    NexT.{{ theme.scheme }}
+  </a>
+</div>
+{% endif %}
+
+
+```
 
 补充：
 2017/08/14：一个工作日过去了，我来到Coding Pages设置页，看到审核通过了，还挺快的，好开心。
