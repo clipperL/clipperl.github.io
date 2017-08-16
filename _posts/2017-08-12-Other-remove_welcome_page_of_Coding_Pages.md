@@ -31,7 +31,8 @@ p标签带的行间距（不知道叫法对不对）太暴力了，空了一行�
 
 > 你的Hexo文件夹\themes\next\layout\_partials\footer.swig
 
-```<div class="copyright" >
+```
+<div class="copyright" >
   {% set current = date(Date.now(), "YYYY") %}
   ? {% if theme.since and theme.since != current %} {{ theme.since }} - {% endif %}
   <span itemprop="copyrightYear">{{ current }}</span>
@@ -57,8 +58,6 @@ p标签带的行间距（不知道叫法对不对）太暴力了，空了一行�
   </a>
 </div>
 {% endif %}
-
-
 ```
 
 补充：
