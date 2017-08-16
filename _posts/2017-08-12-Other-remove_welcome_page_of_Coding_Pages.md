@@ -8,6 +8,10 @@ categories: Other
 
 然后在Page服务中才会出现Hosted by Coding Pages设置项，如下图。
 
+![](http://upload-images.jianshu.io/upload_images/782269-21aebab627ea9e08.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+有两种方式来去掉欢迎页，一种是文字，一种是图片，我一看图片是300*300，感觉有点大，并且是方形的，不知道放哪比较好，最后还是选择了文字，就是下边这一行代码。
+
 补充：
 2017/08/14：一个工作日过去了，我来到Coding Pages设置页，看到审核通过了，还挺快的，好开心。
 
