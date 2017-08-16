@@ -17,6 +17,12 @@ categories: Other
 ```
 结合Hexo的Next主题，我心中理想的效果是这样，与原有的3块配合，上边两块，下边两块：
 
+![](http://upload-images.jianshu.io/upload_images/782269-8828915a3c85b63b.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+但是，如果用官方建议的p标签，效果立马就丑哭了。
+
+
+
 补充：
 2017/08/14：一个工作日过去了，我来到Coding Pages设置页，看到审核通过了，还挺快的，好开心。
 
