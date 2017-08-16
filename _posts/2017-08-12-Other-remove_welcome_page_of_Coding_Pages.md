@@ -8,61 +8,6 @@ categories: Other
 
 然后在Page服务中才会出现Hosted by Coding Pages设置项，如下图。
 
-
-![](http://upload-images.jianshu.io/upload_images/782269-21aebab627ea9e08.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-
-有两种方式来去掉欢迎页，一种是文字，一种是图片，我一看图片是300*300，感觉有点大，并且是方形的，不知道放哪比较好，最后还是选择了文字，就是下边这一行代码。
-```
-<p>Hosted by <a href="https://pages.coding.me" style="font-weight: bold">Coding Pages</a></p>
-```
-结合Hexo的Next主题，我心中理想的效果是这样，与原有的3块配合，上边两块，下边两块：
-
-![](http://upload-images.jianshu.io/upload_images/782269-8828915a3c85b63b.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-
-但是，如果用官方建议的p标签，效果立马就丑哭了。
-
-![](http://upload-images.jianshu.io/upload_images/782269-195b14b3d7b2a317.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-
-p标签带的行间距（不知道叫法对不对）太暴力了，空了一行，好丑。果断放弃p标签，改成span标签，“强力驱动”和“主题”两个字之间的竖线也挺好看的，copy一下，最后效果就是这样，自我感觉还好，就是不知道Coding官方能不能审核通过，希望我这么优美的布局能打动他们的审核。
-
-
-![](http://upload-images.jianshu.io/upload_images/782269-61ffd300da333f65.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-
-
-最后把修改的footer代码贴出来，其实我只加了3行，另外，这个footer文件的位置在：
-
-> 你的Hexo文件夹\themes\next\layout\_partials\footer.swig
-
-```<div class="copyright" >
-  {% set current = date(Date.now(), "YYYY") %}
-  © {% if theme.since and theme.since != current %} {{ theme.since }} - {% endif %}
-  <span itemprop="copyrightYear">{{ current }}</span>
-  <span class="with-love">
-    <i class="fa fa-{{ theme.authoricon }}"></i>
-  </span>
-  <span class="author" itemprop="copyrightHolder">{{ config.author }}</span>
-  <!--以下3行为一条竖线和Coding Page-->
-  <div class="powered-by">  
-  </div>
-  <span>Hosted by <a href="https://pages.coding.me" style="font-weight: bold">Coding Pages</a></span>
-</div>
-
-{% if theme.copyright %}
-<div class="powered-by">
-  {{ __('footer.powered', '<a class="theme-link" href="https://hexo.io">Hexo</a>') }}
-</div>
-
-<div class="theme-info">
-  {{ __('footer.theme') }} -
-  <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
-    NexT.{{ theme.scheme }}
-  </a>
-</div>
-{% endif %}
-
-
-```
-
 补充：
 2017/08/14：一个工作日过去了，我来到Coding Pages设置页，看到审核通过了，还挺快的，好开心。
 
