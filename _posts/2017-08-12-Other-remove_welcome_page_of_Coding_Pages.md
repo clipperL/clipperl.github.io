@@ -25,6 +25,10 @@ categories: Other
 
 p标签带的行间距（不知道叫法对不对）太暴力了，空了一行，好丑。果断放弃p标签，改成span标签，“强力驱动”和“主题”两个字之间的竖线也挺好看的，copy一下，最后效果就是这样，自我感觉还好，就是不知道Coding官方能不能审核通过，希望我这么优美的布局能打动他们的审核。
 
+![](http://upload-images.jianshu.io/upload_images/782269-61ffd300da333f65.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+最后把修改的footer代码贴出来，其实我只加了3行，另外，这个footer文件的位置在：
+
 
 
 补充：
