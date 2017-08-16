@@ -31,6 +31,8 @@ p标签带的行间距（不知道叫法对不对）太暴力了，空了一行�
 
 > 你的Hexo文件夹\themes\next\layout\_partials\footer.swig
 
+![](http://upload-images.jianshu.io/upload_images/782269-1c126719690ce818.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
 补充：
 2017/08/14：一个工作日过去了，我来到Coding Pages设置页，看到审核通过了，还挺快的，好开心。
 
