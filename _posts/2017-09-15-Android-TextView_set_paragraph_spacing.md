@@ -5,7 +5,7 @@ date:   2017/9/15 23:30:06
 categories: Android
 ---
 TextView只提供设置行距的方法，没有提供段落间距的方法，但是提供了一个 SpannableString 类来给TextView设置各种效果，
-比如：
+如图：
 
 ![](http://upload-images.jianshu.io/upload_images/782269-9b6cf62806221083.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
@@ -87,4 +87,4 @@ TextView只提供设置行距的方法，没有提供段落间距的方法，但
 
 下边这个就是替换后的效果，只不过这时候为了展示替换效果，那个长方形还是用了个orange色。
 
-![](http://mail.ricedonate.com/cgi-bin/viewfile?f=2CEB227344E930BD0157C9C080625B73CC3A29D3106C78D6330160521697E8E9E9D0DDDA37D3C35C3C9B6BDABCC46016D79910F9EB423FA7E1AEFC6575B9D66226624A5E5FE31F52152B18975F1CBA987C6235A3FAFF8E7FF1DD1F0949B8B7E5&usewmcache=1&sid=0F8exMBpTYoxnyx1,2)
+![](http://upload-images.jianshu.io/upload_images/782269-f08394cc3043560c.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
