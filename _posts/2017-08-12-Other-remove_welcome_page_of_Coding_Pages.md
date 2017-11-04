@@ -29,7 +29,7 @@ p标签带的行间距（不知道叫法对不对）太暴力了，空了一行�
 
 最后把修改的footer代码贴出来，其实我只加了3行，另外，这个footer文件的位置在：
 
-> 你的Hexo文件夹\themes\next\layout\_partials\footer.swig
+> 你的Hexo文件夹\themes\next\layout\ _partials\footer.swig
 
 ![](http://upload-images.jianshu.io/upload_images/782269-1c126719690ce818.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
