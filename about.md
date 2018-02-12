@@ -20,16 +20,12 @@ permalink: /about/
 
 ---
 
-GitHub：**[https://github.com/clipperL](https://github.com/clipperL)**
-
 CSDN：**[http://blog.csdn.net/yingpaixiaochuan](http://blog.csdn.net/yingpaixiaochuan)**
 
 简书：**[http://www.jianshu.com/users/5d53c3941fcc/latest_articles](http://www.jianshu.com/users/5d53c3941fcc/latest_articles)**
 
 普适同步：**[http://www.synccn.com/](http://www.synccn.com/)**
 
-小清新：**[http://www.bigship.cc/](http://www.bigship.cc/)**
+自建站点：**[http://www.bigship.vip/](http://www.bigship.vip/)**
 
-**[http://www.clipperl.top/](http://www.clipperl.top/)**
-
-**[http://www.synccn.cn/](http://www.synccn.cn/)**
+**[http://www.lvzhou.me/](http://www.lvzhou.me/)**
