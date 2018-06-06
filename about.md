@@ -26,6 +26,6 @@ CSDN：**[http://blog.csdn.net/yingpaixiaochuan](http://blog.csdn.net/yingpaixia
 
 普适同步：**[http://www.synccn.com/](http://www.synccn.com/)**
 
-自建站点：**[http://www.bigship.vip/](http://www.bigship.vip/)**
+自建站点：**[http://www.clipperl.com/](http://www.clipperl.com/)**
 
 **[http://www.lvzhou.me/](http://www.lvzhou.me/)**
