@@ -8,7 +8,7 @@ categories: Java
 最近在调研使用 Jenkins 持续集成软件，拿到了一个 war 文件，运行 war 文件有两种方式：
 1. 把 war 文件放到 tomcat 的 webapps 文件夹中，运行 tomcat ，由 tomcat 自动解压运行 war 文件中的程序；
 2. 不用 tomcat，cmd 进入 war 文件所在目录，直接执行以下命名运行 war 中的程序；
-> java --jar 文件名.war
+> java -jar 文件名.war
 
 今天主要想说的就是这第二种方式。
 
