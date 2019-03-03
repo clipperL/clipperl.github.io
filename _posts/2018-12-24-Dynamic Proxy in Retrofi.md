@@ -35,7 +35,7 @@ public class MyInvocationHandler implements InvocationHandler{
     }
     public Object invoke(Object proxy, Method method, Object[] args) throws Throwable{
         //在原方法前边动态插入代码
-        Object result = method.invoke(target, args);
+        Object result = method.invoke(obj, args);
         //在原方法后边动态插入代码
         return result;
     }
@@ -97,9 +97,9 @@ public <T> T create(final Class<T> service) {
         });
   }
 ```
-  
+
   看到`new InvocationHandler(){****}`了吧，等于变相实现了`InvocationHandler`，另外，`Proxy.newProxyInstance`最终会调用一个 native 方法，动态生成一个 `GitHubService`（我们前文声明的接口）的实现类，大致长这样(这是 Java 动态生成的，所以以下代码并不完全准确)：
-  
+
 ```java
   public final class $Proxy0 extends Proxy implements GitHubService {  
     private static Method m1;  
