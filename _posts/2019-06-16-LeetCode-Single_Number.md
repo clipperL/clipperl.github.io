@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "【【LeetCode】136. 只出现一次的数字(single-number)的解题思路"
+title:  "【LeetCode】136. 只出现一次的数字(single-number)的解题思路"
 date:   2019-06-16 15:02:36
 categories: LeetCode
 ---
