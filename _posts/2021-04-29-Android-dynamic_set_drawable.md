@@ -6,7 +6,9 @@ categories: Android
 ---
 
 如图这样的效果，我们平时直接可以在 xml 写死。
+
 ![](https://img-blog.csdnimg.cn/20210429153536966.png)
+
 写法很简单。
 ```xml
 <?xml version="1.0" encoding="utf-8"?><!--白色圆角线条背景图-->
@@ -19,7 +21,9 @@ categories: Android
 </shape>
 ```
 但是如果它的样式会动态变化。
+
 ![](https://img-blog.csdnimg.cn/20210429154008862.png)
+
 一种还好，我们可以再写一个 xml 文件。
 
 但是如果有好几种，再一一写一个对应的 xml 文件就有点被动了。
